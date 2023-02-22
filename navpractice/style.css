@@ -6,12 +6,13 @@ body{
    
 }
 
-.headline{
-  font-weight:32px;
-  font-size-adjust:90px;
-  clolor:blue;
-
+.title{
+font-size:30px;
+font-family: cursive;
+color:brown;
 }
+
+
 
 .outer{
    text-align: center;
