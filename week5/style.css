@@ -1,0 +1,84 @@
+body{
+	font-family:sans-serif;
+	font-size:18px;
+	margin:10;
+	padding:0;
+	background:#white;
+}
+
+.outer{
+text-align: center;
+}
+
+
+.page{
+	margin-top:25px;
+	background:#f5f5f5;
+	width:1400px;
+	height: 90vh;
+	display: inline-block;
+
+}
+
+.topofpage{
+	display: flex;
+	flex-direction:row;
+	flex-wrap:nowrap ;
+	justify-content: space-between;
+	height:35px;
+	background-color:#e40b00;
+
+}
+
+
+a{
+ color: whitesmoke1;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+
+.travel{ 
+    margin-right:300px;
+    margin-top:-16;
+	background-color:white;
+	font-size: 50px;
+	font-family: 'Tilt Neon', cursive
+
+}
+
+
+.cnnlogo{
+	
+	
+	
+}
+
+.logo_img{
+    margin-top:8px;
+   margin-left:-200px ;
+	width:15%;
+}
+
+.travel{
+ margin-left:80px ;
+}
+
+
+.search{
+	margin-top:80px;
+	margin-right:30px;
+	
+
+}
+
+
+.home{
+	margin-top:5px;
+	margin-right:-180px ;
+}
+
+
+a{
+ color: whitesmoke1;
+}
