@@ -1,0 +1,106 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:lightgray;
+
+}
+
+
+
+.outer{
+  text-align: center;
+}
+
+
+
+
+.page{
+  position:relative ;
+  margin-top: 0px;
+  max-width:1200px;
+  width:100%;
+  height:100%;
+  display:inline-block;
+ 
+}
+
+.text{
+ text-align:left;
+font-family: Courier;
+color: black;
+margin:45px;
+font-size:14px;
+
+
+
+}
+.text1{
+ text-align:left;
+font-family: Courier;
+color: black;
+margin:45px;
+font-size:14px;
+background-color:whitesmoke;
+
+}
+
+.navbar{
+  position:sticky;
+  top:0;
+  background-color: #e40b00;
+  width:100%;
+  opacity:.8;
+  height:50px;
+  z-index:100;
+ 
+  
+  }
+
+  .cnnlogo{
+    margin-left:25px;
+    max-width:100px;
+  }
+  .logoimage{
+    width: 50%;
+  }
+
+  .mastertile{
+   
+background-repeat:no-repeat;
+background-size:cover;
+height:600px ;
+
+
+  }
+
+
+.tile{
+background-image: url("img/redvan.jpg");
+font-display: block;
+text-align: center;
+
+}
+
+
+
+
+
+.tile1{
+background-image: url("img/redumbre.jpg");
+font-display: block;
+text-align: left;
+
+}
+
+
+
+
+.tile2{
+background-image: url("img/redlug1.jpg");
+font-display: block;
+text-align: right;
+
+
+}
+
+
