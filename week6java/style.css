@@ -1,0 +1,79 @@
+body{
+	 font-size:40px;
+	 margin:0;
+	 padding:0;
+	 background-color:#cf4e34;
+	 
+}
+
+.outer{
+	text-align: center;
+}
+
+
+.navbar{
+	position:absolute;
+	background-color:#990F02;
+	width:100%;
+	height:50px;
+	opacity:.5;
+}
+
+.herotop{
+	background-image:url("img/red.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	width:100%;
+	height:500px;
+}
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color:#d19e94;
+	max-width: 1200px;
+	width:100%;
+	height:100%;
+	display:inline-block;
+	text text-align: left;
+	height:98vh;
+	 
+}
+
+#menu img{
+  width:80px;
+  cursor:pointer;
+
+
+}
+
+#menuoverlay{
+	position:absolute;
+	top:0px;
+	background-color: #d19e94;
+	width: 100%;
+	height:98vh;
+	display:none;
+
+	text-align: center;
+}
+
+
+.innermenu{
+margin-top: 30px;
+
+}
+
+
+.innermenu div{
+	padding-bottom:50px;
+
+}
+#close{
+	position:absolute;
+	right:10px;
+	top:10px;
+	font-size:60px;
+	cursor: pointer;
+}
+
+
