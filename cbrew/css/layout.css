@@ -1,0 +1,90 @@
+body{
+  font-family: font-family: 'Assistant', sans-serif;;
+  color:black;
+
+}
+
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 1200px;
+  width: 100%;
+  display: inline-block;
+}
+
+.topnav{
+  background-color:#f5eaea;
+  height:100px;
+  text-align: left;
+
+}
+
+.layout{
+	width:100%;
+	height:100px;
+	background-color: #f5eaea;
+
+}
+
+
+/* HERO IMAGE */
+.hero_content{
+	font-size:28px;
+	text-align: center;
+}
+.hero_text_headline{
+  font-family: 'Assistant', sans-serif; ;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.hero_content img{
+	width:100%;
+}
+.herotext1{
+  font-family:'Assistant', sans-serif;
+  font-size:4;
+  text-align: center;
+}
+
+
+
+/* SIDEBAR COMPONENT */
+
+.side_bar{
+  height:100%;
+  overflow: auto;
+  margin-top:0px;
+  margin-bottom:0px;
+  border:3px solid;
+  text-align:left;
+
+}
+
+.dosnikepng{
+ padding-left:0px;
+}
+
+.tresnikepng{
+  padding-left:0px;
+}
+
+.side_bar .section{
+   color: black;
+   font-weight: bold;
+   text-align:left;
+}
+
+.side_bar img{
+	float: left;
+  height:300px;
+}
+
+
+
