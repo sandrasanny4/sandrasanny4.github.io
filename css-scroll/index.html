@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>scroll</title>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;800&family=Courgette&display=swap" rel="stylesheet">
+<style>
+.page_content_stretch {
+   border: 1px solid red;
+   height: 3000px;
+   background:#b2adb4;
+   font-family: 'Courgette', cursive;
+   font-size:50px;
+   text-align: center ;
+ }
+ .scale_me {
+   position: fixed;
+   color:pink;
+   top: 50%;
+   left: 50%;
+   transform-origin: center center;
+   transform: translate(-50%, -50%) scale(1, 1);
+ }
+.text{
+text-align: left;
+font-family: 'Courgette', cursive;
+font-size: 30px;
+
+
+ 
+}
+
+</style>
+</head>
+<body>
+<div class="scale_me" id="scaleme">  <img src="img/fashion.png "alt="fashionshow"> </div>
+<div class="page_content_stretch"> Welcome to the Fashion show</div>
+
+
+<!--JavaScript to Handle what happens as the page is scrolled. -->
+<script>
+/* ASSIGN A FUNCTION TO THE PAGE AS IT SCROLLS */
+document.body.onscroll = function(event) {
+    var scrollposition = window.pageYOffset;
+    var scalesize = 1 + scrollposition * 0.01;
+    document.getElementById("scaleme").style.transform = "translate(-50%, -50%) scale(" + scalesize + ")";
+};
+
+</script>
+</body>
+</html>
