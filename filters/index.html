@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: drop-shadow(16px 16px 20px blue);
+      filter: drop-shadow(16px 16px 20px blue);
+
+      
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation:6s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter:drop-shadow(16px 16px 20px blue);
+	        filter: drop-shadow(16px 16px 20px blue);
+	       }
+	       
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/madrid.png" alt="madrid">
+
+</body>
+</html>
