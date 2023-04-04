@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+	
+	<style>
+		 .page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:black;
+  
+   }
+	.my_filter{
+		max-height: 75%;
+		max-width: 75%;
+        contrast(90%) brightness(110%) saturate(100%);
+  filter: contrast(90%) brightness(110%) saturate(100%);
+}
+
+     
+
+
+    .my_filter:hover{
+
+      animation: 2s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	      contrast(90%) brightness(110%) sepia(30%) grayscale(100%);
+  filter: contrast(90%) brightness(110%) sepia(30%) grayscale(100%);
+	       }
+
+     }
+
+	</style>
+</head>
+<body>
+	<div class="page">
+
+
+
+<img class="my_filter" src="img/madrid.png" alt="Madrid">
+	
+</div>
+</body>
+</html>
