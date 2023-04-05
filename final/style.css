@@ -1,0 +1,59 @@
+
+body{
+  font-family:'Roboto', sans-serif;
+}
+.page{
+  max-width:850px;
+  width: 50%;  
+
+}
+.topnav{
+  border: 30px solid lightgrey;
+  margin: 30px 0px;
+}
+.hero_content{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+/* HERO IMAGE */
+img{
+  max-width:95%; 
+  padding: 30px;
+}
+img:hover{
+  animation-fill-mode: forwards;
+  animation-name: move;
+  animation-duration: .5s;
+  animation-timing-function:ease-in;
+}
+@keyframes move{
+from{transform: scale(1,1);}
+to {transform: scale(1.2, 1.2);}
+}
+.hero_text{
+  display: inline-block;
+  width: 100%;
+  font-family:Roboto;
+  
+}
+
+.text{
+  text-align: center;
+ 
+}
+
+h1{
+  font-weight: bold;
+  font-size: 59px;
+  text-align: center;
+  padding-top:30px;
+
+
+
+ 
+
